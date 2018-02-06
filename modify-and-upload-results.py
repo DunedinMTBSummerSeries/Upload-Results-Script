@@ -70,30 +70,17 @@ if publishResults == 'Y' or publishResults == 'y':
 
     print "\nADD NEW FILES"
     gitCommandStatus = sendGitCommand("git add .")
-    # gitCommand = "git add -A"
-    # exitStatus = os.system(gitCommand)
-    # if exitStatus == 0:
-    #     print SUCCESS
-    # else
-    #     print "FAIL! (Exit status: ", exitStatus
 
     if gitCommandStatus == 0:
         print "\nCOMMIT RESULTS FILES"
         commitMessage = raw_input("Commit message: ")
         gitCommand = "git commit -a -m \"" + commitMessage + "\""
         gitCommandStatus = sendGitCommand(gitCommand)
-        # exitStatus = os.system(gitCommand)
-        # print "Exit status = ", exitStatus
 
         if gitCommandStatus == 0:
             print"\nPUSH REPO TO THE CLOUD"
             gitCommand = "git push -u origin master"
             gitCommandStatus = sendGitCommand(gitCommand)
-            # os.system(gitCommand)
-            # print "Exit status = ", exitStatus
-
-            # if exitStatus != 0:
-            #     print "Nothing pushed!"
         else:
             print "Nothing to commmit - skipping push!"
     else:
