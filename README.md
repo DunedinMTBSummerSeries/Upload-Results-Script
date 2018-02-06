@@ -28,4 +28,4 @@ It should be obvious, but just in case :) - Internet access is required for the 
 3. At the prompt, type 'Y' then Enter if you wish to publish the results to DunedinMTBSummerSeries.github.io.
 4. At the prompt, enter a commit message (e.g. "Results for Round 2.").
 5. Hopefully everything has worked and you can press Enter to exit the script.
-6. Check the results at https://dunedinmtbsummerseries.github.io/results/<year>/<round>.
+6. Check the results at [dunedinmtbsummerseries.github.io/results\/\<year\>/\<round\>](https://dunedinmtbsummerseries.github.io/results/2018/round-1).
