@@ -9,7 +9,7 @@ The script replaces the following strings:
 | Banner image link | ```<a href="http://www.sportident.co.uk" title="SiTiming from SPORTident" id="logo">``` | ```<a href="https://www.facebook.com/groups/DunedinMTBSummerSeries/" title="Dunedin MTB Summer Series" id="logo">``` |
 | Banner text | ```<span>SiTiming from SPORTident</span>``` | ```<span>Dunedin MTB Summer Series</span>``` |
 
-# Structure of Website
+# Structure of the Website
 ```
 https://dunedinmtbsummerseries.github.io
   |--results
@@ -21,7 +21,7 @@ https://dunedinmtbsummerseries.github.io
 ```
 There currently isn't a root index page, so the results pages can only be viewed for each round (e.g. https://dunedinmtbsummerseries.github.io/results/2018/round-1/).
 
-# Usage
+# How to Use the Script
 It should be obvious, but just in case :) - Internet access is required for the results to be published.
 1. Using SiTiming, save the HTML results for the round to the respective folder in the DunedinMTBSummerSeries.github.io repo (e.g. results/2018/round-1).
 2. Using Windows Explorer, drag the folder where the HTML results were saved onto the 'modify-and-upload-results.py' script file to run the script on that round's results.
