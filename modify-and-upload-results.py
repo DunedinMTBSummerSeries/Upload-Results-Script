@@ -58,7 +58,7 @@ for dname, dirs, files in os.walk(directory):
 publishResults = raw_input("\nPublish results to 'DunedinMTBSummerSeries.github.io'? [Y/N]: ")
 
 if publishResults == 'Y' or publishResults == 'y':
-    os.chdir("C:\Users\cjensen\Documents\Dunedin MTB Summer Series\ResultsTest")
+    os.chdir("C:\Users\cjensen\Documents\Dunedin MTB Summer Series\DunedinMTBSummerSeries.github.io")
 
     def sendGitCommand (command):
         exitStatus = os.system(command)
