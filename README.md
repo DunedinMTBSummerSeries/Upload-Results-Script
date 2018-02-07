@@ -1,5 +1,5 @@
 # Upload-Results-Script
-A script that modifies the HTML results output from SiTiming and pushes to the GitHub pages repo 'DunedinMTBSummerSeries.github.io' 
+A script that modifies the HTML results output from SiTiming, automatically adds a results entry to the readme file and pushes files to the GitHub pages repo 'DunedinMTBSummerSeries.github.io' 
 
 # What the Script Modifies
 The script replaces the following strings:
@@ -19,7 +19,7 @@ https://dunedinmtbsummerseries.github.io
        |--2017
             |--round-1
 ```
-There currently isn't a root index page, so the results pages can only be viewed for each round (e.g. https://dunedinmtbsummerseries.github.io/results/2018/round-1/).
+README.md is the root index page for the website - https://dunedinmtbsummerseries.github.io.
 
 # How to Use the Script
 It should be obvious, but just in case :) - Internet access is required for the results to be published.
