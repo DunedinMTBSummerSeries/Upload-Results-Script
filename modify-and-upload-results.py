@@ -130,7 +130,7 @@ if roundIsValid and yearIsValid:
     publishResults = raw_input("\n\nPublish results to 'DunedinMTBSummerSeries.github.io'? [Y/N]: ")
 
     if publishResults == 'Y' or publishResults == 'y':
-        os.chdir("C:\Users\cjensen\Documents\Dunedin MTB Summer Series\DunedinMTBSummerSeries.github.io")
+        os.chdir("C:\Users\Admin\Documents\Dunedin MTB Summer Series\DunedinMTBSummerSeries.github.io")
 
         def sendGitCommand (command):
             exitStatus = os.system(command)
